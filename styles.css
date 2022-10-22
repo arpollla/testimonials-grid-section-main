@@ -133,3 +133,19 @@ p {
     border: solid 2px var(--moderate-violet);
     border-radius: 50%;
 }
+
+@media screen and (max-width:376px) {    
+    main {
+        max-width: 85%;
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .daniel, .jeanette, .jonathan, .patrick, .kira {
+        grid-column: 1 / 2;
+    }
+
+    .kira {
+        grid-row: 5;
+    }
+}
